@@ -134,6 +134,7 @@
                     <excludes>
                         <exclude>src/main/java/org/mule/**/*.java</exclude>
                         <exclude>src/main/resources/**/*.jks</exclude>
+                        <exclude>src/main/resources/**/log4j2.xml</exclude>
                         <exclude>src/main/resources/nl/clockwork/mule/ebms/stub/ebf/xsd/**/*</exclude>
                     </excludes>
                 </configuration>
