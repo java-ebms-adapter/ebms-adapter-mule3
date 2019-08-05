@@ -20,8 +20,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>nl.clockwork.ebms.mule</groupId>
-    <artifactId>ebms-adapter-mule3anypoint</artifactId>
+    <groupId>com.github.java-ebms-adapter</groupId>
+    <artifactId>ebms-adapter-mule3</artifactId>
     <packaging>mule</packaging>
     <name>ebMS Adapter for Mule 3</name>
     <version>2.15.1</version>
