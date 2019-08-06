@@ -195,8 +195,8 @@
         </plugins>
     </build>
 
-    <!-- Mule Dependencies -->
     <dependencies>
+        <!-- Mule Dependencies -->
         <!-- XML configuration -->
         <dependency>
             <groupId>org.mule.modules</groupId>
@@ -204,6 +204,7 @@
             <version>${mule.version}</version>
             <scope>provided</scope>
         </dependency>
+
         <!-- Mule Transports -->
         <dependency>
             <groupId>org.mule.transports</groupId>
@@ -235,6 +236,7 @@
             <version>${mule.version}</version>
             <scope>provided</scope>
         </dependency>
+
         <!-- Mule Modules -->
         <dependency>
             <groupId>org.mule.modules</groupId>
@@ -254,6 +256,7 @@
             <version>${mule.version}</version>
             <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>org.quartz-scheduler</groupId>
             <artifactId>quartz</artifactId>
@@ -319,6 +322,15 @@
     </repositories>
 
     <pluginRepositories>
+        <pluginRepository>
+            <id>central</id>
+            <name>Maven Central - Just releases</name>
+            <layout>default</layout>
+            <url>https://repo1.maven.org/maven2/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
         <pluginRepository>
             <id>mulesoft-release</id>
             <name>mulesoft release repository</name>
